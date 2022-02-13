@@ -7,7 +7,7 @@ Scripts I use to monitor Ubiquiti/Unifi equipment with PRTG.
 ***
 
 ### Ubiquiti MIBs for SNMP Monitoring
-I ended up not using Ubiquiti's MIBs in favor of utilizing the API, but going to note what I did to get them going, incase it may be useful for someone else.
+I ended up not using Ubiquiti's MIBs in favor of [utilizing the API](ap-monitoring-prtg/README.md), but going to note what I did to get them going, incase it may be useful for someone else.
 
 ### Import Ubiquiti MIBs to PRTG
 1. Download [Paessler's MIB importer tool](https://www.paessler.com/tools/mibimporter)
