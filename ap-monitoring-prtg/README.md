@@ -14,7 +14,7 @@ Custom EXE/XML script for PRTG to monitor Ubiquiti wifi access points with data 
 
 ## Test the Script Without 'Installing'
 1. Make a copy of [ubiquiti-ap.ps1](ubiquiti-ap.ps1) on your desktop
-2. Open **Powershell ISE** > open `unifi-ap.ps1`
+2. Open **Powershell ISE** > open `ubiquiti-ap.ps1`
 3. In the console window, make sure you `cd C:\youruser\Desktop`, first
 4. Set your parameters as command-line arguments, like so:
   ```powershell
@@ -22,7 +22,7 @@ Custom EXE/XML script for PRTG to monitor Ubiquiti wifi access points with data 
   ```
   - Replace the example values for yours; note that `apip` is the IP address of the access point you're going to test with
 5. Running the above should yield the XML output that PRTG will parse
-6. When you're done testing and have all of the values you want, move `cd C:\youruser\Desktop\unifi-ap.ps1` into `C:\Program Files (x86)\PRTG Network Monitor\Custom Sensors\EXEXML`
+6. When you're done testing and have all of the values you want, move `cd C:\youruser\Desktop\ubiquiti-ap.ps1` into `C:\Program Files (x86)\PRTG Network Monitor\Custom Sensors\EXEXML`
 
 
 
@@ -56,7 +56,7 @@ Login to your Unifi controller:
 8. Go into the newly created device/controller and click the **+** button to add a new sensor
   - In the preceeding page, search `xml` and select: `EXE/Script Advanced`
   - Sensor Name: `Name/description of the access point`
-  - EXE/Script: select `unifi-ap.ps1`
+  - EXE/Script: select `ubiquiti-ap.ps1`
   - Parameters:
 
     ```powershell
