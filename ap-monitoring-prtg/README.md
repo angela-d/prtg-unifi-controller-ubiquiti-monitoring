@@ -13,7 +13,7 @@ Custom EXE/XML script for PRTG to monitor Ubiquiti wifi access points with data 
 ![Devices page](img/device-list.png)
 
 ## Test the Script Without 'Installing'
-1. Make a copy of [unifi-ap.ps1](unifi-ap.ps1) on your desktop
+1. Make a copy of [ubiquiti-ap.ps1](ubiquiti-ap.ps1) on your desktop
 2. Open **Powershell ISE** > open `unifi-ap.ps1`
 3. In the console window, make sure you `cd C:\youruser\Desktop`, first
 4. Set your parameters as command-line arguments, like so:
@@ -37,7 +37,7 @@ Login to your Unifi controller:
   - Make note of the username & password, as they will be input to PRTG, so the script can access the controller's API
 
 ### Add the Script to PRTG & Set Up Devices and Sensors
-1. After testing, put the [unifi-ap.ps1](unifi-ap.ps1) script in `C:\Program Files (x86)\PRTG Network Monitor\Custom Sensors\EXEXML`
+1. After testing, put the [ubiquiti-ap.ps1](ubiquiti-ap.ps1) script in `C:\Program Files (x86)\PRTG Network Monitor\Custom Sensors\EXEXML`
 2. Create a group, if you don't already have one.  Mine is structured like so:
   - Devices > Local Probe > Network Infrastructure > Wifi
 3. Un-tick 'Credentials for Windows Systems' (assuming you don't use the same credentials for unrelated systems)
